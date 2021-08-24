@@ -20,4 +20,12 @@ void main() {
     ProgrammingLanguageAge = "7";
     print("He really liked his name ${ProgrammingLanguageName}");
     print("But didn't like being ${ProgrammingLanguageAge} years old");
+
+    //Chapter 4: Data Types
+    String name = "Kavin";
+    int age = 11;
+    double gpa = 3.5;
+    bool likesProgramming = true;
+    print(likesProgramming);
+
 }
