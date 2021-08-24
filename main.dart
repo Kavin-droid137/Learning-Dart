@@ -28,4 +28,16 @@ void main() {
     bool likesProgramming = true;
     print(likesProgramming);
 
+    //Chapter 5: String Basics
+    String greetings = "Hello!";
+    //                  012345
+    print(
+        greetings.length
+    );
+    print(
+        greetings[5]
+    );
+    // .toUpperCase turns text in uppercase
+    // .toLowerCase turns text in lowercase
+
 }
