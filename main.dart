@@ -1,3 +1,6 @@
+import "dart:math";
+import "dart:io";
+
 void main() {
     //Print Statements
 	print("Hello World!");
@@ -40,4 +43,8 @@ void main() {
     // .toUpperCase turns text in uppercase
     // .toLowerCase turns text in lowercase
 
+    //Chapter 8: Getting user input
+    print("What is your name??");
+    String userName = stdin.readLineSync();
+    print("Hello ${userName}");
 }
